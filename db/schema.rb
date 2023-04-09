@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_04_09_061709) do
+ActiveRecord::Schema.define(version: 2023_04_09_085935) do
 
   create_table "event_staffs", force: :cascade do |t|
     t.integer "supervisor_id"
     t.integer "it_id"
     t.integer "housekeeper_id"
-    t.string "catering_id"
+    t.integer "catering_id"
   end
 
   create_table "events", force: :cascade do |t|

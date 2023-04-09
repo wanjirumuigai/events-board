@@ -4,7 +4,7 @@ class CreateEventStaffs < ActiveRecord::Migration[6.1]
       t.integer :supervisor_id
       t.integer :it_id
       t.integer :housekeeper_id
-      t.string :catering_id
+      t.integer :catering_id
     end
   end
 end
