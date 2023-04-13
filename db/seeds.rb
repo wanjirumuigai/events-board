@@ -28,7 +28,7 @@ staff4 =
     name: "Newton",
     email: "newton@arc.com",
     password: "1234",
-    role: "Housekeeping"
+    role: "Housekeeper"
   )
 staff5 =
   Staff.create(
@@ -56,7 +56,7 @@ staff8 =
     name: "Vic",
     email: "vic@arc.com",
     password: "1234",
-    role: "Housekeeping"
+    role: "Housekeeper"
   )
 event_staff1 =
   EventStaff.create(
