@@ -87,7 +87,8 @@ event1 =
     number_of_participants: 300,
     status: "Confirmed",
     venue_id: 1,
-    event_staff_id: event_staff1.id
+    event_staff_id: event_staff1.id,
+    event_date: "2023-10-10"
   )
 event2 =
   Event.create(
@@ -96,7 +97,8 @@ event2 =
     number_of_participants: 80,
     status: "Confirmed",
     venue_id: 4,
-    event_staff_id: event_staff1.id
+    event_staff_id: event_staff1.id,
+    event_date: "2023-6-10"
   )
   event3 =
   Event.create(
@@ -105,7 +107,8 @@ event2 =
     number_of_participants: 300,
     status: "Confirmed",
     venue_id: 2,
-    event_staff_id: event_staff2.id
+    event_staff_id: event_staff2.id,
+    event_date: "2024-10-10"
   )
 event4 =
   Event.create(
@@ -114,7 +117,8 @@ event4 =
     number_of_participants: 80,
     status: "Confirmed",
     venue_id: 4,
-    event_staff_id: event_staff1.id
+    event_staff_id: event_staff1.id,
+    event_date: "2023-10-11"
   )
   event5 =
   Event.create(
@@ -123,7 +127,8 @@ event4 =
     number_of_participants: 300,
     status: "Confirmed",
     venue_id: 5,
-    event_staff_id: event_staff2.id
+    event_staff_id: event_staff2.id,
+    event_date: "2023-12-10"
   )
 event6 =
   Event.create(
@@ -132,7 +137,8 @@ event6 =
     number_of_participants: 100,
     status: "Confirmed",
     venue_id: 6,
-    event_staff_id: event_staff1.id
+    event_staff_id: event_staff1.id,
+    event_date: "2024-1-1"
   )
   event7 =
   Event.create(
@@ -141,7 +147,8 @@ event6 =
     number_of_participants: 300,
     status: "Confirmed",
     venue_id: 6,
-    event_staff_id: event_staff2.id
+    event_staff_id: event_staff2.id,
+    event_date: "2023-9-9"
   )
 event8 =
   Event.create(
@@ -150,7 +157,8 @@ event8 =
     number_of_participants: 80,
     status: "Confirmed",
     venue_id: 4,
-    event_staff_id: event_staff1.id
+    event_staff_id: event_staff1.id,
+    event_date: "2023-7-7"
   )
 
 puts "✅ Done seeding!"
