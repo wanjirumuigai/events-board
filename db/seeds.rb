@@ -77,6 +77,8 @@ venue1 = Venue.create(name: "Dias", capacity: 500)
 venue2 = Venue.create(name: "Kifaru", capacity: 15)
 venue3 = Venue.create(name: "Simba", capacity: 20)
 venue4 = Venue.create(name: "Seneiya", capacity: 100)
+venue5 = Venue.create(name: "Football Field", capacity: 500)
+venue6 = Venue.create(name: "Lagatt Hall", capacity: 500)
 
 event1 =
   Event.create(
@@ -91,6 +93,60 @@ event2 =
   Event.create(
     name: "LoW Conference",
     event_type: "Conference",
+    number_of_participants: 80,
+    status: "Confirmed",
+    venue_id: 4,
+    event_staff_id: event_staff1.id
+  )
+  event3 =
+  Event.create(
+    name: "KiBco Graduation",
+    event_type: "Internal",
+    number_of_participants: 300,
+    status: "Confirmed",
+    venue_id: 2,
+    event_staff_id: event_staff2.id
+  )
+event4 =
+  Event.create(
+    name: "Therapists Beyond Borders Workshop",
+    event_type: "Internal",
+    number_of_participants: 80,
+    status: "Confirmed",
+    venue_id: 4,
+    event_staff_id: event_staff1.id
+  )
+  event5 =
+  Event.create(
+    name: " MGA Sports Day",
+    event_type: "Internal",
+    number_of_participants: 300,
+    status: "Confirmed",
+    venue_id: 5,
+    event_staff_id: event_staff2.id
+  )
+event6 =
+  Event.create(
+    name: "Steve and Stephanie Wedding",
+    event_type: "Internal",
+    number_of_participants: 100,
+    status: "Confirmed",
+    venue_id: 6,
+    event_staff_id: event_staff1.id
+  )
+  event7 =
+  Event.create(
+    name: "Funkids Entertainment",
+    event_type: "Internal",
+    number_of_participants: 300,
+    status: "Confirmed",
+    venue_id: 6,
+    event_staff_id: event_staff2.id
+  )
+event8 =
+  Event.create(
+    name: "Therapists Beyond Borders Workshop",
+    event_type: "Internal",
     number_of_participants: 80,
     status: "Confirmed",
     venue_id: 4,

@@ -15,7 +15,7 @@ class ApplicationController < Sinatra::Base
     events.to_json
   end
 
-  # testing
+
   get "/event_staff/:id" do
     event = Event.find(params[:id])
     e_staff = event.assigned_staff
